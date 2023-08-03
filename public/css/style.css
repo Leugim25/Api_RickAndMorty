@@ -6,6 +6,11 @@
     --verde: #00ff44;
 }
 
+.btn-back{
+    margin: 4em;
+    text-decoration: none;
+}
+
 .btn-search{
     padding: 1em;
     color: #000;
@@ -44,6 +49,22 @@
 .container img{
     border-radius: 15px;
     padding: 0 0 1em;
+}
+
+.container-search{
+    margin: 5% 33%;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 14px 25px 0px var(--verde);
+    border-radius: 15px;
+}
+
+.container-search p{
+    color: white;
+}
+
+.container-search img{
+    border-radius: 15px;
 }
 
 .form-control{

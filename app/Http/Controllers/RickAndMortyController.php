@@ -24,7 +24,7 @@ class RickAndMortyController extends Controller
 
         $characters = json_decode($response->getBody(), true)['results'];
 
-        return view('layouts.dashboard', ['characters' => $characters]);
+        return view('characters.search', ['characters' => $characters]);
     }
 
     public function show($id)
@@ -34,6 +34,6 @@ class RickAndMortyController extends Controller
 
         $character = json_decode($response->getBody(), true);
 
-        return view('result', ['character' => $character]);
+        return view('characters.result', ['character' => $character]);
     }
 }
