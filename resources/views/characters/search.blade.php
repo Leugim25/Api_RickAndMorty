@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+
     <h1>Resultados de búsqueda...</h1>
     <a href="{{ route('index') }}" class="btn-search btn-back">Regresar</a>
     <div class="container">
